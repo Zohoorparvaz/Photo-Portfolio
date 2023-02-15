@@ -1,0 +1,32 @@
+body {
+margin: 0;
+}
+
+h1 {
+font-family:fantasy;
+font-size: 3em;
+font-weight: 200;
+color:darkcyan;
+border-bottom: 3px lightblue solid;
+border-right: 3px lightblue solid;
+text-align: center;
+width: 600px;
+}
+
+img {
+  margin: 3em;
+  height: 450px;
+  transition: all 1s;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  margin: 10px;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
